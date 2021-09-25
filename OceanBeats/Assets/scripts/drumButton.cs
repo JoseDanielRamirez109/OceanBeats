@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class drumButton : MonoBehaviour
 {
-   public void Click()
+   public void LoadScene(string sceneName)
     {
-        Debug.Log(message: "Clicked");
+        SceneManager.LoadScene(sceneName);
     }
 }

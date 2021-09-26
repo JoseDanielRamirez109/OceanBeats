@@ -15,11 +15,11 @@ C:/Users/dan10/Desktop/Ocean Beats Game/OceanBeats/OceanBeats
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49496
+60537
 Successfully changed project path to: C:/Users/dan10/Desktop/Ocean Beats Game/OceanBeats/OceanBeats
 C:/Users/dan10/Desktop/Ocean Beats Game/OceanBeats/OceanBeats
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004775 seconds.
+Registered in 0.004964 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.371 seconds
+- Completed reload, in  1.368 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1371ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (1368ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (390ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (155ms)
+			SetupLoadedEditorAssemblies (161ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (67ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (71ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,72 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005831 seconds.
+Registered in 0.006709 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
+- Completed reload, in  1.189 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1116ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (885ms)
-			LoadAssemblies (115ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (309ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (360ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (177ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (189ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2098 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.2 MB.
 System memory in use after: 93.3 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 3.025100 ms (FindLiveObjects: 0.239400 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.666700 ms  DeleteObjects: 0.068800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51.5 MB.
-System memory in use after: 51.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 3.711200 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.051700 ms MarkObjects: 3.338000 ms  DeleteObjects: 0.031700 ms)
+Total: 3.377400 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.201600 ms MarkObjects: 2.788100 ms  DeleteObjects: 0.101900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -152,56 +131,349 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Images/PianoTiles_31.asset
+  artifactKey: Guid(253a0e59af3673c42b8cad78d4c231ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_31.asset using Guid(253a0e59af3673c42b8cad78d4c231ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67456b73377e8fe34814fa92ec717255') in 0.080533 seconds 
+  Import took 0.084426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Images/PianoTiles_11.asset
+  artifactKey: Guid(67daccc8266ea3e42b23ee179f5bfa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_11.asset using Guid(67daccc8266ea3e42b23ee179f5bfa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45744b211a47b6fb85cf513177299ecf') in 0.016891 seconds 
+  Import took 0.020538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Images/PianoTiles_4.asset
+  artifactKey: Guid(c899bf1971261cf48976a28aa6289bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_4.asset using Guid(c899bf1971261cf48976a28aa6289bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a0751e2f43210266b9808294eee32') in 0.012960 seconds 
+  Import took 0.016274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Images/PianoTiles_8.asset
+  artifactKey: Guid(1207cef7428490e488f75a2fa64c814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_8.asset using Guid(1207cef7428490e488f75a2fa64c814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed44652a0036c56f039236c5ca88a38b') in 0.014301 seconds 
+  Import took 0.017907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Images/PianoRoomBackground.png
+  artifactKey: Guid(d7fd95e75abd74d5ab238d39eca2a88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoRoomBackground.png using Guid(d7fd95e75abd74d5ab238d39eca2a88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051011e6eb7a94730ccbf2b73f048b51') in 0.077641 seconds 
+  Import took 0.082191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Images/PianoTiles_20.asset
+  artifactKey: Guid(48969315256fdd846aacb5245f7622bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_20.asset using Guid(48969315256fdd846aacb5245f7622bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f2ed02887049230ca4ac5db8daf184') in 0.013537 seconds 
+  Import took 0.017654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Images/PianoTiles.png
+  artifactKey: Guid(1895718989a68264e9bf260feda7091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles.png using Guid(1895718989a68264e9bf260feda7091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baec4ba274f77b2e50bf0de29d79b39') in 0.077178 seconds 
+  Import took 0.080704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Images/PianoTiles_7.asset
+  artifactKey: Guid(1aabb7c5d934b954886eec8daf46e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_7.asset using Guid(1aabb7c5d934b954886eec8daf46e255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf08a8655632fb9858baefaabba43e7') in 0.013256 seconds 
+  Import took 0.016380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Images/pianoIcon.png
+  artifactKey: Guid(0b68bd58ce4b4c241826fcad8b4fa63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pianoIcon.png using Guid(0b68bd58ce4b4c241826fcad8b4fa63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0cd242be6516e0cc379f3ce8a0ce61') in 0.017353 seconds 
+  Import took 0.021203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/PianoTiles_2.asset
+  artifactKey: Guid(55fbebdbd0f504a46ae60bf2b4a96eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_2.asset using Guid(55fbebdbd0f504a46ae60bf2b4a96eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9183f135334a2fa7fb4539258da02b5e') in 0.013845 seconds 
+  Import took 0.017693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Images/PianoTiles_10.asset
+  artifactKey: Guid(e249631df9fd16f4da5aaab53ebc57ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_10.asset using Guid(e249631df9fd16f4da5aaab53ebc57ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e8d144eea9d75119950583cf3dc205') in 0.012835 seconds 
+  Import took 0.017199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Images/PianoTiles_30.asset
+  artifactKey: Guid(486a81b54716c1342babbf9e74f9c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_30.asset using Guid(486a81b54716c1342babbf9e74f9c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab532d29f44fa949f4afb40b15417249') in 0.012914 seconds 
+  Import took 0.016391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Images/PianoTiles_29.asset
+  artifactKey: Guid(fe7fb859bfd112843ac989b26a1d3826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_29.asset using Guid(fe7fb859bfd112843ac989b26a1d3826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b8891315c45ae91a8e0a5a3637945b') in 0.015040 seconds 
+  Import took 0.018728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Images/pianowithBench.png
+  artifactKey: Guid(6fd28f42c4560304b8c25ef0a20e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pianowithBench.png using Guid(6fd28f42c4560304b8c25ef0a20e5ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd07129f1218b69d061915f81eef039') in 0.022431 seconds 
+  Import took 0.025817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/PianoTiles_19.asset
+  artifactKey: Guid(51358d21680b3874e82c62fc462b3ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_19.asset using Guid(51358d21680b3874e82c62fc462b3ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55ef36ce25b11e63a9abdb22dc9cb42') in 0.014599 seconds 
+  Import took 0.017869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Images/PianoTiles_17.asset
+  artifactKey: Guid(8f1b73550695ec64aa86743123f8d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_17.asset using Guid(8f1b73550695ec64aa86743123f8d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da84f963329dc8a89e07bf3e43f1732') in 0.011433 seconds 
+  Import took 0.015194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Images/PianoTiles_13.asset
+  artifactKey: Guid(137c919281489e24883d9db3df48d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_13.asset using Guid(137c919281489e24883d9db3df48d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ccf1e9c673dbb1b1db3d6ca8d94db8') in 0.014719 seconds 
+  Import took 0.018840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Images/PianoTiles_24.asset
+  artifactKey: Guid(2222f4e0d87f9b94f8136fdca62baea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_24.asset using Guid(2222f4e0d87f9b94f8136fdca62baea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71fba589228abb1a5634a352550ed8') in 0.012692 seconds 
+  Import took 0.015706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Images/PianoTiles_1.asset
+  artifactKey: Guid(80750216683dac54e9d317320480a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_1.asset using Guid(80750216683dac54e9d317320480a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd23614b0046c2fe921f7a132c27e5') in 0.010075 seconds 
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/PianoTiles_5.asset
+  artifactKey: Guid(b949f9696fc8bb84295aa2d7c74a5d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_5.asset using Guid(b949f9696fc8bb84295aa2d7c74a5d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a05d5b6de9bdd050b9164a3a7b73917') in 0.012462 seconds 
+  Import took 0.016220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Images/PianoTiles_14.asset
+  artifactKey: Guid(d0a44873fa5f4bc41aa2fd50e8dca7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_14.asset using Guid(d0a44873fa5f4bc41aa2fd50e8dca7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffd8208b6669f2260644284ad631937') in 0.013161 seconds 
+  Import took 0.016721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Images/keyboard.png
+  artifactKey: Guid(35dd1cffa79964636933655bf6b7894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/keyboard.png using Guid(35dd1cffa79964636933655bf6b7894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02f0c636b1f22d9bba7ec727b257407') in 0.016474 seconds 
+  Import took 0.020174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Images/PianoTiles_28.asset
+  artifactKey: Guid(ec7383b0a8508a7499c97cf162436e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_28.asset using Guid(ec7383b0a8508a7499c97cf162436e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2bad7387ef622950ced33ec28466aa') in 0.009903 seconds 
+  Import took 0.013854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Images/PianoTiles_6.asset
+  artifactKey: Guid(80222618026dca7438de9fbb2644e755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_6.asset using Guid(80222618026dca7438de9fbb2644e755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a606a9b7ccb04aff0b3fae56883e331c') in 0.012610 seconds 
+  Import took 0.016518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Images/PianoTiles_0.asset
+  artifactKey: Guid(8f7119ab4d7f9c7429c30b4b4afe193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_0.asset using Guid(8f7119ab4d7f9c7429c30b4b4afe193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85453747bc2b7808f268679b4471e0c') in 0.013800 seconds 
+  Import took 0.018202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Images/PianoTiles_9.asset
+  artifactKey: Guid(ef15f23a0b1a4f248a5c82161f2d926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_9.asset using Guid(ef15f23a0b1a4f248a5c82161f2d926d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188804262e9068f8abb955712b56f000') in 0.015092 seconds 
+  Import took 0.018807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Images/PianoTiles_21.asset
+  artifactKey: Guid(5d540382c7b29f94e8b94adc1d50f481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_21.asset using Guid(5d540382c7b29f94e8b94adc1d50f481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eb210d46a87cff5ef321a7dd11cddc') in 0.011503 seconds 
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Images/PianoTiles_16.asset
+  artifactKey: Guid(b791566f3869ac14d881817e737ddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_16.asset using Guid(b791566f3869ac14d881817e737ddaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cbf9aa132a7b4e87a34f4db1d3cac1') in 0.012725 seconds 
+  Import took 0.016586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Images/PianoTiles_23.asset
+  artifactKey: Guid(1c4ff1dfb199be743ac45e02f7fd04ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_23.asset using Guid(1c4ff1dfb199be743ac45e02f7fd04ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e50254f515e59289b4601eb1c2abc11') in 0.009912 seconds 
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Images/PianoTiles_12.asset
+  artifactKey: Guid(330750d6ba35e154cad1568d3980dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_12.asset using Guid(330750d6ba35e154cad1568d3980dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77794a7d65e07b0ecae1a51d41e61951') in 0.012091 seconds 
+  Import took 0.015494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Images/PianoTiles_26.asset
+  artifactKey: Guid(0685239aa2a7f3f4796a1e8fb38db6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_26.asset using Guid(0685239aa2a7f3f4796a1e8fb38db6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c403b4b9dfa74aa5c3df726de4d777') in 0.012615 seconds 
+  Import took 0.016447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Images/piano.png
+  artifactKey: Guid(2277b17553c45a746ae01df382f7d39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/piano.png using Guid(2277b17553c45a746ae01df382f7d39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030edc66d4beb364a410eafb8f3e0454') in 0.017542 seconds 
+  Import took 0.020966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Images/PianoTiles_22.asset
+  artifactKey: Guid(b6c577c7dbf08a747af2b35c9e9bb1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_22.asset using Guid(b6c577c7dbf08a747af2b35c9e9bb1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c9d4beefb3a964a1324526daedd813') in 0.012436 seconds 
+  Import took 0.016612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Images/PianoTiles_27.asset
+  artifactKey: Guid(84d2e1e8cbe71eb4ca4036db8c59f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_27.asset using Guid(84d2e1e8cbe71eb4ca4036db8c59f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfba0495f3a86ce6344bc6dbfa7bf84f') in 0.015254 seconds 
+  Import took 0.018781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Images/PianoTiles_3.asset
+  artifactKey: Guid(0f06267b0a58f9147b44796e25c17d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_3.asset using Guid(0f06267b0a58f9147b44796e25c17d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0ea8ad152edfe20d0948824735ef38') in 0.013011 seconds 
+  Import took 0.016793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Images/PianoTiles_18.asset
+  artifactKey: Guid(1efc26dc6e59f944aa2df263d5da1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_18.asset using Guid(1efc26dc6e59f944aa2df263d5da1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1447c1b512edc924c90d7752ac28c54') in 0.014433 seconds 
+  Import took 0.018136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Images/PianoTiles_25.asset
+  artifactKey: Guid(ad4d44cf8e9069d43af971f4d3cf666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_25.asset using Guid(ad4d44cf8e9069d43af971f4d3cf666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90fe7a4ccb70108fcf25d5cc6e4f114') in 0.014649 seconds 
+  Import took 0.018221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Images/PianoRoom.prefab
+  artifactKey: Guid(245e8ec6412ef9045b3a0d65002ca4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoRoom.prefab using Guid(245e8ec6412ef9045b3a0d65002ca4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f8fed21a704b78b8889b8a5c49f290') in 0.053425 seconds 
+  Import took 0.056887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Images/PianoTiles_15.asset
+  artifactKey: Guid(5fae30eaa4b454a44a96dd25ddc52bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/PianoTiles_15.asset using Guid(5fae30eaa4b454a44a96dd25ddc52bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5125a9c156c23a65cec049cb4cf3cc91') in 0.012083 seconds 
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.055606 seconds.
   path: Assets/Scenes/PianoRoom.unity
   artifactKey: Guid(d211c4efb92a7314d8b0445b54b260ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PianoRoom.unity using Guid(d211c4efb92a7314d8b0445b54b260ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6d44943b07f4d78b99ab22085779ce') in 0.019371 seconds 
-  Import took 0.024595 seconds .
+Start importing Assets/Scenes/PianoRoom.unity using Guid(d211c4efb92a7314d8b0445b54b260ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc783c99d88e4fd55742f6df0322471') in 0.005021 seconds 
+  Import took 0.008358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.938837 seconds.
+  path: Assets/Scenes/pianoScene 2.unity
+  artifactKey: Guid(3a3a70de19c6b4db792e62ef1c3789ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/pianoScene 2.unity using Guid(3a3a70de19c6b4db792e62ef1c3789ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc453c46a7253ae3a3e646ec72a94b5') in 0.007315 seconds 
+  Import took 0.011287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.931572 seconds.
+  path: Assets/Scenes/pianoScene.unity
+  artifactKey: Guid(fea3d25ea7bc540b3b30af031649d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/pianoScene.unity using Guid(fea3d25ea7bc540b3b30af031649d424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966aad1ecc565761472511bb93f0abf') in 0.003989 seconds 
+  Import took 0.008171 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005824 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1038ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (302ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.7 MB.
-System memory in use after: 92.8 MB.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.0 MB.
+System memory in use after: 55.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2541.
-Total: 3.051100 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.749500 ms  DeleteObjects: 0.020400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 3.388400 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.049600 ms MarkObjects: 3.061600 ms  DeleteObjects: 0.014300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -216,104 +488,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005903 seconds.
+Registered in 0.005848 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  1.191 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1069ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (848ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (306ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.7 MB.
-System memory in use after: 92.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 3.172300 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.049000 ms MarkObjects: 2.859000 ms  DeleteObjects: 0.021500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1159ms)
+	ReloadAssembly (1191ms)
 		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (129ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
+			SetupTypeCache (348ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (345ms)
+			SetupLoadedEditorAssemblies (351ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (196ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (202ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.8 MB.
-System memory in use after: 92.9 MB.
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2547.
-Total: 3.166500 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.746800 ms  DeleteObjects: 0.023400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 3.513600 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.048700 ms MarkObjects: 3.170700 ms  DeleteObjects: 0.025500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -328,33 +544,33 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005785 seconds.
+Registered in 0.006499 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
+- Completed reload, in  1.086 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (845ms)
-			LoadAssemblies (116ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (314ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
+				BeforeProcessingInitializeOnLoad (110ms)
 				ProcessInitializeOnLoadAttributes (181ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (17ms)
@@ -362,14 +578,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.8 MB.
-System memory in use after: 92.9 MB.
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2550.
-Total: 2.973100 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.677200 ms  DeleteObjects: 0.020800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 3.657300 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.050400 ms MarkObjects: 3.265800 ms  DeleteObjects: 0.022400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

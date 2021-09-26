@@ -13,6 +13,7 @@ public class BPeerM : MonoBehaviour
     public float[] _tapTime = new float[4];
     public static int _tap;
     public static bool _customBeat;
+    public GameObject leftDrumButton;
 
     private void Awake()
     {
@@ -35,37 +36,29 @@ public class BPeerM : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Tapping();
+        //Tapping();
         BeatDetection();
+
     }
 
-    void Tapping()
+    public void Tapping()
     {
-        if (Input.GetKeyUp(KeyCode.F1))
+        if (_tap < 4)
         {
-            _customBeat = true;
+            _tapTime[_tap] = Time.realtimeSinceStartup;
+            _tap++;
+
+        }
+        if (_tap == 4)
+        {
+            float averageTime = ((_tapTime[1] - _tapTime[0]) + (_tapTime[2] - _tapTime[1]) + (_tapTime[3] - _tapTime[2])) / 3;
+            _bpm = (float)System.Math.Round((double)60 / averageTime, 2);
+            Debug.Log(_bpm);
             _tap = 0;
-            if (_customBeat)
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    if (_tap < 4)
-                    {
-                        _tapTime[_tap] = Time.realtimeSinceStartup;
-                        _tap++;
-                    }
-                    if (_tap == 4)
-                    {
-                        float averageTime = ((_tapTime[1] - _tapTime[0]) + (_tapTime[2] - _tapTime[1]) + (_tapTime[3] - _tapTime[2])) / 3;
-                        _bpm = (float)System.Math.Round((double)60 / averageTime, 2);
-                        _tap = 0;
-                        _beatTimer = 0;
-                        _beatTimerD8 = 0;
-                        _beatCountD8 = 0;
-                        _customBeat = false;
-                    }
-                }
-            }
+            _beatTimer = 0;
+            _beatTimerD8 = 0;
+            _beatCountD8 = 0;
+            _customBeat = false;
         }
     }
 
@@ -79,6 +72,7 @@ public class BPeerM : MonoBehaviour
         {
             _beatTimer -= _beatInterval;
             _beatFull = true;
+
             _beatCountFull++;
             Debug.Log("Full");
         }

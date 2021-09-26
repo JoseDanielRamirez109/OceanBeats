@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PianoRoom.unity
     guid: d211c4efb92a7314d8b0445b54b260ba
+  - enabled: 1
+    path: Assets/Scenes/pianoScene.unity
+    guid: fea3d25ea7bc540b3b30af031649d424
   m_configObjects: {}

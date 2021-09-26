@@ -282,6 +282,7 @@ RectTransform:
   m_Children:
   - {fileID: 1558701836}
   - {fileID: 552452539}
+  - {fileID: 271021127}
   - {fileID: 1181950994}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -373,6 +374,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &271021126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 271021127}
+  - component: {fileID: 271021129}
+  - component: {fileID: 271021128}
+  m_Layer: 5
+  m_Name: r
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &271021127
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271021126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 15.826193, y: 8.1199, z: 8.1199}
+  m_Children: []
+  m_Father: {fileID: 133052031}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -14}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &271021128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271021126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.70980394, g: 0.67058825, b: 0.62352943, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &271021129
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271021126}
+  m_CullTransparentMesh: 1
 --- !u!1 &552452538
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,8 +483,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -26.23561}
-  m_SizeDelta: {x: 1302.9578, y: 1027.5288}
+  m_AnchoredPosition: {x: -2.0000153, y: 424}
+  m_SizeDelta: {x: 974.3, y: 134.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &552452540
 MonoBehaviour:
@@ -431,7 +507,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 5fff7708fab6f364786b29768855aba9, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
@@ -482,12 +558,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 133052031}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000026703, y: -66}
-  m_SizeDelta: {x: 965.3274, y: 766.4818}
+  m_AnchoredPosition: {x: 13.000027, y: -33}
+  m_SizeDelta: {x: 1505, y: 766.4818}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181950995
 MonoBehaviour:
@@ -510,34 +586,25 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
-    m_FontStyle: 0
+    m_Font: {fileID: 12800000, guid: 9eefe21a31d32a948a18768680f7487a, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 4
     m_MaxSize: 50
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Use WASD or Up, Down, Left, Right to Control the Character in the Island
-    Area.
-
-
-    Click on an Instrument to get into the Level for that Instrument.
-
-
-    To
-    Play the Instrument, Click on Different Parts of it.
-
-
-    Your BPM will be Displayed
-    at the bottom.
-
-
-    Use "back" buttons to go back and "Exit" to quit the game.'
+  m_Text: "Explore different levels and learn about the language that connects us
+    all.\n\n\u2669 Use WASD or Up, Down, Left, Right to Control the Character in
+    the Island Area.\n\n\u2669 Click on an Instrument to get into the Level for that
+    Instrument.\n\n\u2669 To Play the Instrument, Click on Different Parts of it.\n\n\u266B
+    On the drums, your beats per minute (BPM) will be Displayed at the top.\n\n\u266B
+    On the keyboard, you can experiment between 5 different chords.\n\n\u2669 Use
+    \"back\" buttons to go back and \"Exit\" to quit the game."
 --- !u!222 &1181950996
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -665,8 +732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800, y: -510}
-  m_SizeDelta: {x: 320, y: 60}
+  m_AnchoredPosition: {x: -821.7, y: -490.1}
+  m_SizeDelta: {x: 252.7, y: 80.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558701837
 MonoBehaviour:
@@ -737,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.991797, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -863,12 +930,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 9eefe21a31d32a948a18768680f7487a, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
